@@ -4,36 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Coding Quiz</title>
+        <title>Brandon's Coding Quiz</title>
         <link rel="stylesheet" href="style.css">
     
     </head>
     <body>
-        <!-- Main Outer Div -->
-        <div class="outer-container">
-
-            <!-- Top Bar Section -->
-            <div class="top-bar">
-            
-                <button>View High Scores</button>
-                <p>Timer: 00:00</p>
+        <a href="HighScores.html">View Highscores</a>
+        <div id="wrapper">
+            <div id="currentTime"></div>
+            <div id="questionsDiv">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                    answers
+                    will penalize your score/time by ten seconds!</p>
+                <ul id="choicesUl"></ul>
+                <button id="startTime">Start Quiz</button>
             </div>
-
-            <!-- Inner Div -->
-            <div class="inner-container">
-
-                <!-- Main Header / Quiz Intro -->
-                <header class="quiz-intro">
-
-                </header>
-            
-                <!-- Main Quiz Content -->
-                <main>
-
-                </main>
-
-            </div>
-
+    
         </div>
     </body>
-</html>
+        <script src="script.js"></script>
